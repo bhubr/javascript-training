@@ -17,4 +17,4 @@ Ecris une fonction `abs` qui accepte en paramètre un nombre, et renvoie sa vale
 // TESTS : NE RIEN CHANGER SOUS CETTE LIGNE !
 assert.strictEqual(abs(-20), 20);
 assert.strictEqual(abs(50), 50);
-console.log('✅ Test passé !');
+console.log('✅ abs : test passé !');

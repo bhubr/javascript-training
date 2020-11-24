@@ -12,4 +12,4 @@ Ecrire une fonction `min` qui accepte comme paramètres deux nombres, et renvoie
 // TESTS : NE RIEN CHANGER SOUS CETTE LIGNE !
 assert.strictEqual(min(10, 20), 10);
 assert.strictEqual(min(50, 30), 30);
-console.log('✅ Test passé !');
+console.log('✅ min : test passé !');

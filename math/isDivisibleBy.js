@@ -1,15 +1,17 @@
-// math/isOdd.js
+// math/isDivisibleBy.js
 const assert = require('assert');
 
 /*--------------*
  * INSTRUCTIONS |
  *--------------*
-Ecrire une fonction `isOdd` qui prend en paramètre un nombre, et renvoie `true` s'il est impair, `false` sinon.
+Ecrire une fonction `isDivisibleBy` qui prend comme paramètres deux nombres `num1` et `num2`, et renvoie `true` si `num1` est divisible par `num2`, `false` sinon.
 */
 
 // ECRIS TON CODE ICI
 
 // TESTS : NE RIEN CHANGER SOUS CETTE LIGNE !
-assert.strictEqual(isOdd(10), false);
-assert.strictEqual(isOdd(11), true);
-console.log('✅ Test passé !');
+assert.strictEqual(isDivisibleBy(10, 5), true);
+assert.strictEqual(isDivisibleBy(4, 2), true);
+assert.strictEqual(isDivisibleBy(12, 6), true);
+assert.strictEqual(isDivisibleBy(12, 7), false);
+console.log('✅ isDivisibleBy : test passé !');
